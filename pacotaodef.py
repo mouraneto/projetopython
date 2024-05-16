@@ -25,16 +25,16 @@ while True:
             os.system('cls')
             for i in estoque.keys():
                 print(i)
-                def total_produtos(estoque):
-                    total=0
-                    for quantidade in estoque.values():
-                        total+= quantidade
-                    return total
-                quantidade_total = total_produtos(estoque)
-                print("Quantidade total de produtos:", quantidade_total)
-                time.sleep(2)
-                input('Tecla enter para continuar')
-                os.system('cls')
+                # def total_produtos(estoque):
+                #     total=0
+                #     for quantidade in estoque.values():
+                #         total+= quantidade
+                #     return total
+                # quantidade_total = total_produtos(estoque)
+                # print("Quantidade total de produtos:", quantidade_total)
+                # time.sleep(2)
+                # input('Tecla enter para continuar')
+                # os.system('cls')
         def exclusao():
             os.system('cls')
             print(estoque)
@@ -61,6 +61,7 @@ while True:
             adicao()
         elif menu == 2:
             revisao()
+    
         elif menu == 3:
             exclusao()
         elif menu == 4:
